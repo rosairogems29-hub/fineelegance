@@ -59,8 +59,8 @@
 .header .nav{align-items:center;min-height:104px !important;}
 .header .brand{display:flex !important;align-items:center !important;flex:0 0 auto !important;min-width:0 !important;}
 .header .brand img{
-  width:315px !important;
-  max-width:315px !important;
+  width:285px !important;
+  max-width:285px !important;
   height:auto !important;
   max-height:none !important;
   object-fit:contain !important;
@@ -70,14 +70,26 @@
 @media(max-width:1000px){
   .header .nav{min-height:94px !important;}
   .header .brand img{
-    width:270px !important;
-    max-width:270px !important;
+    width:245px !important;
+    max-width:245px !important;
   }
 }
 @media(max-width:700px){
   .header .nav{min-height:78px !important;}
   .header .brand img{
-    width:210px !important;
-    max-width:210px !important;
+    width:185px !important;
+    max-width:185px !important;
   }
 }
+
+/* Our Specialty image */
+.frame .specialty-image{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center;display:block}
+
+/* Our Promise section */
+.promise-intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.promise-heading h2 span{display:block}
+.promise-body{max-width:650px;color:var(--muted);font-size:13px;line-height:1.85;padding-top:4px}
+.promise-body p{margin:0 0 14px}
+.promise-body p:last-child{margin-bottom:0}
+.promise-body strong{color:var(--black);font-weight:700}
+@media(max-width:1000px){.promise-intro{grid-template-columns:1fr;gap:28px}.promise-body{padding-top:0}}
