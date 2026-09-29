@@ -2,7 +2,7 @@
 :root{--black:#090909;--black2:#141414;--gold:#d5ae49;--gold2:#f0d88b;--white:#fff;--ivory:#f8f6f1;--line:#d9d4c8;--ink:#161616;--muted:#6e6a61;--max:1200px;--shadow:0 24px 70px rgba(0,0,0,.13)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--white);font-family:Montserrat,Arial,sans-serif;line-height:1.65}img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,input,textarea{font:inherit}.container{width:min(var(--max),calc(100% - 48px));margin:auto}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.22em;font-size:10px;font-weight:700;color:var(--gold)}.gold-line{width:72px;height:1px;background:var(--gold);margin:18px 0}.section{padding:100px 0}.section-dark{background:var(--black);color:var(--white)}.section-soft{background:var(--ivory)}.section-heading{max-width:760px;margin-bottom:50px}.section-heading h1,.section-heading h2,.hero h1,.display-title{font-family:'Cormorant Garamond',serif;font-weight:600;line-height:1.02;margin:10px 0 18px}.section-heading h1{font-size:64px}.section-heading h2{font-size:54px}.section-heading p{color:var(--muted);max-width:700px}.section-dark .section-heading p{color:#d4d0c7}
 .topbar{background:var(--black);color:#d8d3c8;border-bottom:1px solid rgba(213,174,73,.32);font-size:10px;letter-spacing:.11em;text-transform:uppercase}.topbar-inner{height:38px;display:flex;justify-content:space-between;align-items:center}.topbar-right{display:flex;gap:18px;align-items:center}.lk{color:var(--gold2)}
-.header{position:sticky;top:0;z-index:100;background:rgba(8,8,8,.95);backdrop-filter:blur(14px);border-bottom:1px solid rgba(213,174,73,.23)}.nav{min-height:88px;display:flex;align-items:center;gap:26px}.brand{flex:0 0 auto}.brand img{width:240px;height:64px;object-fit:contain;object-position:left center;background:var(--black)}.nav-links{display:flex;align-items:center;justify-content:center;gap:27px;flex:1}.nav-links a{color:#f4efe5;text-transform:uppercase;font-size:10px;letter-spacing:.12em;padding:32px 0;border-bottom:1px solid transparent}.nav-links a:hover,.nav-links a.active{color:var(--gold2);border-bottom-color:var(--gold)}.header-cta{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border:1px solid var(--gold);color:var(--black);background:var(--gold);text-transform:uppercase;font-size:10px;font-weight:700;letter-spacing:.11em;white-space:nowrap}.menu-toggle{display:none;background:none;border:0;color:var(--gold2);font-size:26px;cursor:pointer}
+.header{position:sticky;top:0;z-index:100;background:var(--black);backdrop-filter:blur(14px);border-bottom:1px solid rgba(213,174,73,.23)}.nav{min-height:104px;display:flex;align-items:center;gap:26px}.brand{flex:0 0 auto;display:flex;align-items:center}.brand img{width:315px;height:auto;max-width:100%;object-fit:contain;object-position:center;background:transparent}.nav-links{display:flex;align-items:center;justify-content:center;gap:27px;flex:1}.nav-links a{color:#f4efe5;text-transform:uppercase;font-size:10px;letter-spacing:.12em;padding:32px 0;border-bottom:1px solid transparent}.nav-links a:hover,.nav-links a.active{color:var(--gold2);border-bottom-color:var(--gold)}.header-cta{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border:1px solid var(--gold);color:var(--black);background:var(--gold);text-transform:uppercase;font-size:10px;font-weight:700;letter-spacing:.11em;white-space:nowrap}.menu-toggle{display:none;background:none;border:0;color:var(--gold2);font-size:26px;cursor:pointer}
 .hero{position:relative;min-height:760px;display:flex;align-items:center;overflow:hidden;background:var(--black);isolation:isolate}.hero-slides,.hero-slide,.hero-overlay{position:absolute;inset:0}.hero-slides{z-index:-3}.hero-slide{background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}.hero-slide.active{opacity:1}.hero-overlay{z-index:-2;background:linear-gradient(90deg,rgba(4,4,4,.88) 0%,rgba(4,4,4,.74) 40%,rgba(4,4,4,.34) 68%,rgba(4,4,4,.10) 100%)}.hero-content{max-width:720px;color:var(--white);padding:110px 0}.hero h1{font-size:88px;margin:14px 0 22px}.hero p{font-size:16px;line-height:1.9;color:#eee7db;max-width:630px}.hero-actions{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border:1px solid var(--gold);font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;transition:.2s ease}.btn-gold{background:var(--gold);color:var(--black)}.btn-outline{background:transparent;color:var(--white)}.btn-outline:hover{background:var(--white);color:var(--black);border-color:var(--white)}.btn-gold:hover{background:var(--gold2);border-color:var(--gold2)}.hero-dots{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;gap:7px}.hero-dots span{width:28px;height:2px;background:rgba(255,255,255,.35)}.hero-dots span.active{width:44px;background:var(--gold)}
 .split{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.frame{background:var(--white);border:1px solid var(--line);padding:10px}.frame img{width:100%;aspect-ratio:4/3;object-fit:cover}.copy h2{font-family:'Cormorant Garamond',serif;font-size:62px;line-height:1.02;margin:10px 0 18px}.copy p{color:var(--muted);max-width:650px}.link-arrow{display:inline-flex;margin-top:18px;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--black);border-bottom:1px solid var(--gold);padding-bottom:6px}
 .collection-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.collection-card{background:var(--white);border:1px solid var(--line);transition:.25s ease}.collection-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#c4ab71}.collection-card .cover{aspect-ratio:1/1;overflow:hidden;background:#eee}.collection-card .cover img{width:100%;height:100%;object-fit:cover;transition:.4s ease}.collection-card:hover .cover img{transform:scale(1.035)}.collection-card .info{padding:20px 20px 23px}.collection-card .info h3{font-family:'Cormorant Garamond',serif;font-size:30px;margin:5px 0 7px}.collection-card .info p{margin:0;color:var(--muted);font-size:12px}.tag{color:#876d2e;font-size:9px;text-transform:uppercase;letter-spacing:.15em;font-weight:700}
@@ -16,13 +16,15 @@
 @media(max-width:1000px){.nav{gap:14px}.brand img{width:205px}.nav-links{gap:16px}.nav-links a{font-size:9px}.hero h1{font-size:72px}.split,.two-col,.contact-grid,.category-hero{grid-template-columns:1fr}.collection-grid,.gallery-grid,.dark-grid{grid-template-columns:repeat(2,1fr)}.category-hero .copy{padding:55px}}
 @media(max-width:700px){.container{width:min(100% - 28px,var(--max))}.topbar{display:none}.header{position:sticky}.nav{min-height:76px}.brand img{width:185px;height:58px}.nav-links{display:none;position:absolute;left:0;right:0;top:76px;background:var(--black2);border-top:1px solid rgba(213,174,73,.18);padding:8px 14px;flex-direction:column;align-items:stretch;gap:0}.nav.mobile-open .nav-links{display:flex}.nav-links a{padding:12px 7px;border-bottom:1px solid rgba(255,255,255,.08)}.header-cta{padding:10px 12px;font-size:8px}.menu-toggle{display:block}.hero{min-height:650px}.hero-overlay{background:linear-gradient(180deg,rgba(4,4,4,.76),rgba(4,4,4,.40) 55%,rgba(4,4,4,.18))}.hero-content{padding:80px 0}.hero h1{font-size:55px}.hero p{font-size:14px}.section{padding:72px 0}.section-heading h1,.page-hero h1{font-size:52px}.section-heading h2,.copy h2{font-size:44px}.collection-grid,.gallery-grid,.dark-grid,.requirement-list{grid-template-columns:1fr}.contact-card{padding:28px}.footer-grid{grid-template-columns:1fr}.copyright{flex-direction:column}.collection-intro{display:block}.collection-note{margin-top:12px}.category-hero .copy{padding:38px 26px}.category-hero{min-height:auto}}
 
-/* Fine Elegance update: larger header logo and revised home copy */
+/* Fine Elegance header/logo refinement */
 .header .brand img{
-  width:320px;
+  width:315px;
   height:auto;
+  max-width:100%;
   object-fit:contain;
-  object-position:left center;
+  object-position:center;
   display:block;
+  background:transparent;
 }
 .topbar-left{display:flex;align-items:center;gap:8px}
 .topbar-left .lk{color:var(--gold2);font-weight:700;letter-spacing:.08em}
@@ -35,14 +37,47 @@
 .copy h2{max-width:760px}
 .copy p + p{margin-top:14px}
 @media(max-width:1000px){
-  .header .brand img{width:260px}
+  .nav{min-height:94px}
+  .header .brand img{width:270px}
   .topbar-right{font-size:10px}
 }
 @media(max-width:700px){
-  .header .brand img{width:225px;height:auto;max-width:225px}
+  .nav{min-height:78px}
+  .header .brand img{width:210px;height:auto;max-width:210px}
   .topbar{display:block}
   .topbar-inner{font-size:9px;gap:10px}
   .topbar-right{font-size:8px;letter-spacing:.05em;text-align:right}
   .hero h1 span + span{font-size:.68em}
   .hero-description p{font-size:13px;line-height:1.75}
+}
+
+/* FINAL LOGO VISIBILITY FIX
+   Uses the full supplied Fine Elegance logo with transparent background.
+   The black header remains visible around the logo without a separate black box.
+*/
+.header{background:var(--black) !important;}
+.header .nav{align-items:center;min-height:104px !important;}
+.header .brand{display:flex !important;align-items:center !important;flex:0 0 auto !important;min-width:0 !important;}
+.header .brand img{
+  width:315px !important;
+  max-width:315px !important;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  background:transparent !important;
+}
+@media(max-width:1000px){
+  .header .nav{min-height:94px !important;}
+  .header .brand img{
+    width:270px !important;
+    max-width:270px !important;
+  }
+}
+@media(max-width:700px){
+  .header .nav{min-height:78px !important;}
+  .header .brand img{
+    width:210px !important;
+    max-width:210px !important;
+  }
 }
