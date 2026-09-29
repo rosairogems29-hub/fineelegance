@@ -15,3 +15,4 @@ Website-only phase based on the previous project structure.
 - Main navigation remains: Home, About Us, Collection, Highlights, Gallery, Contact Us.
 - `Find Your Gemstone` remains a new-tab header button; its `Send Your Requirement` button opens WhatsApp to +94 71 523 1454.
 - Admin/API is intentionally not included in this phase.
+Latest update: Home page Our Specialty image is displayed in a 1:1 square frame so the supplied square image retains its full visible details without distortion.
