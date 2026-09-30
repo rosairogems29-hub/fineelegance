@@ -17,3 +17,6 @@ Website-only phase based on the previous project structure.
 - Admin/API is intentionally not included in this phase.
 
 Hero slideshow updated with five supplied images in the requested order; first image is shown on initial page load.
+
+
+Latest update: Home page Why Fine Elegance section now has 8 cards with the supplied content. Home hero loop uses the five supplied images in the requested order.
