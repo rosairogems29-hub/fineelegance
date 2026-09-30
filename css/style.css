@@ -93,3 +93,14 @@
 .promise-body p:last-child{margin-bottom:0}
 .promise-body strong{color:var(--black);font-weight:700}
 @media(max-width:1000px){.promise-intro{grid-template-columns:1fr;gap:28px}.promise-body{padding-top:0}}
+
+
+/* Home-only Promise cards */
+.home-promise-cards .home-promise-card{display:block;color:inherit;text-decoration:none}
+.home-promise-cards .home-promise-card .cover{aspect-ratio:1/1}
+.home-promise-cards .home-promise-card .cover img{object-position:center}
+.home-promise-cards .home-promise-card .info h3{margin-top:0}
+.home-promise-cards .home-promise-card p{line-height:1.75}
+
+/* Keep the supplied square Our Specialty image fully visible */
+.frame .specialty-image{aspect-ratio:1/1;object-fit:cover;object-position:center}
