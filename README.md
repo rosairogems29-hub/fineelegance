@@ -20,3 +20,6 @@ Hero slideshow updated with five supplied images in the requested order; first i
 
 
 Latest update: Home page Why Fine Elegance section now has 8 cards with the supplied content. Home hero loop uses the five supplied images in the requested order.
+
+
+Latest update: Home Getting touch section now uses a full-width black contact card with Location, WhatsApp, Email, and Worldwide Inquiries Welcome. Footer Connect now includes Find us social icons for Facebook, Instagram, TikTok, and WeChat.
