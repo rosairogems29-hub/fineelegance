@@ -1,29 +1,8 @@
-# Fine Elegance Gems & Jewelry — Website Update
+# Fine Elegance Gems & Jewelry
 
-Website-only phase based on the previous project structure.
+Updated website build including the latest Home, About Us, and Collection page updates.
 
-## Applied updates
-- Replaced the header/footer logo with the supplied Fine Elegance logo.
-- Increased the header logo size while keeping it proportioned and balanced.
-- Top bar left: `LK · Sri Lanka`.
-- Top bar right: `Where Elegance Meets Rare Beauty`.
-- Home hero heading updated to: `Natural Gemstones. Exceptional Sapphiires. Trusted Expertise` / `Specialist in Ceylon sapphires`.
-- Home hero description updated to the supplied Fine Elegance company copy.
-- Home second section kicker changed to `Our Specialty`.
-- Home second section heading changed to `Exceptional Ceylon Sapphiires & Fine Gemstones,Naturally selected`.
-- Home second section description updated to the supplied Sri Lanka / Ceylon sapphire copy.
-- Main navigation remains: Home, About Us, Collection, Highlights, Gallery, Contact Us.
-- `Find Your Gemstone` remains a new-tab header button; its `Send Your Requirement` button opens WhatsApp to +94 71 523 1454.
-- Admin/API is intentionally not included in this phase.
-
-Hero slideshow updated with five supplied images in the requested order; first image is shown on initial page load.
-
-
-Latest update: Home page Why Fine Elegance section now has 8 cards with the supplied content. Home hero loop uses the five supplied images in the requested order.
-
-
-Latest update: Home Getting touch section now uses a full-width black contact card with Location, WhatsApp, Email, and Worldwide Inquiries Welcome. Footer Connect now includes Find us social icons for Facebook, Instagram, TikTok, and WeChat.
-
-
-## Latest update
-About Us page updated with the requested Fine Elegance content, Our Expertise, Carefully Sourced Gemstones, Sri Lankan Gemstone Heritage, Our Commitment to Customers, and Vision & Mission boxes.
+- About Us: founders section and Our Approach image included.
+- Collection: updated heading/intro and six category cover images.
+- Existing Fine Elegance Home page, hero loop, social links, Getting touch section, and prior updates retained.
+- Admin panel/API are not included in this website-only build.

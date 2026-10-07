@@ -273,3 +273,19 @@
   .vision-mission-card p{font-size:12px}
   .accent-word{font-size:30px}
 }
+
+/* About Us — Approach image */
+.about-approach-image-wrap{min-height:0;padding:0 0 0 30px;align-items:center;justify-content:center;}
+.about-approach-image{width:min(100%,520px);aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid var(--line);padding:10px;background:var(--white);box-shadow:var(--shadow)}
+
+/* About Us — Our Founders */
+.founders-section{background:var(--ivory)}
+.founders-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:980px;margin:0 auto;}
+.founder-card{border:1px solid var(--gold);background:var(--white);padding:30px;text-align:center;}
+.founder-card h3{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:600;margin:0 0 6px;color:var(--black);}
+.founder-role{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.founders-copy{max-width:900px;margin:38px auto 0;text-align:center}
+.founders-copy h2{font-family:'Cormorant Garamond',serif;font-size:46px;line-height:1.04;margin:0 0 14px;color:var(--black);}
+.founders-copy p{max-width:820px;margin:0 auto;color:var(--muted);font-size:13px;line-height:1.85}
+@media(max-width:1000px){.about-approach-image-wrap{padding:10px 0 0}.about-approach-image{width:min(100%,480px)}}
+@media(max-width:680px){.founders-grid{grid-template-columns:1fr}.founder-card{padding:24px}.founder-card h3{font-size:30px}.founders-copy{margin-top:28px}.founders-copy h2{font-size:36px}.founders-copy p{font-size:12px}}
